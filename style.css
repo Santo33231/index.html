@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url('Town..jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    background-attachment: fix;
+}
+.main ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li a{
+    padding: 25px;
+    color: white;
+}
+.main ul li a:hover{
+    background-color: burlywood;
+    transition: 3s;
+    cursor: pointer;
+}
+.logo{
+  color: white;
+  font-style: italic;
+}
+span{
+    color: red;
+}
+.logo:hover{
+    background-color: burlywood;
+    transition: 3s;
+    cursor: pointer;
+}
+p{
+    padding-top: 250px;
+    text-align: center;
+    color: yellow;
+    font-family: bold;
+    font-size: 70px;
+}
+.footer{
+    height: 80vh;
+    width: 100%;
+    padding-top: 60px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer ul li a{
+    color: #666;
+   
+}
+.hero{
+
+    padding-top: 60px;
+    font-family: bold;
+    color: blue;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+.fot{
+text-align: center;
+color: white;
+background-color: black;
+font-weight: bold;
+padding-top: 30px;
+padding-bottom: 30px;
+ }
